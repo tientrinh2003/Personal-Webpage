@@ -1,0 +1,100 @@
+/* css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+img{
+    border-radius: 8px;
+    width: 500px;
+    height:300px;
+    margin: 20px;
+}
+
+.header {
+    background-color: #F0BBFF;
+    color: #6C0988;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;   
+    background-color: #E7DDFF;
+}
+
+h2,h3 {
+    color: #D052FE;
+}
+
+p {
+    color: #811BA6;
+}
+
+ul{
+    list-style-position: inside;
+    color: #6a0dad;
+    text-indent: -50px;
+}
+
+
+.footer {
+    background-color: #ff99cc; /* Bright pink footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    color: white;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #6a0dad; /* Purple button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #9932cc; /* Darker purple on hover */
+}
+
+form label {
+    color: #6a0dad; /* Purple for form labels */
+}
+
+textarea, input[type="text"], input[type="email"] {
+    border: 2px solid #9932cc;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
